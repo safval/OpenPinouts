@@ -1,0 +1,331 @@
+***** Other
+1 EDIT
+---
+---
+2o ME
+
+
+
+---
+
+3x
+
+***
+4\ A
+---
+5x B
+---
+6/ C
+***** 78XX/79XX
+1 IN
+
+---
+
+
+2 GND
+
+
+---
+3 OUT
+***** 555
+***** 7555
+1 GND
+2o ~TRIGGER
+3 OUT
+4o ~RESET
+---
+
+
+
+
+
+
+
+
+---
+8 VCC
+7 DISCHARGE
+6 THRESHOLD
+5 CV
+***** 556
+1 DISCHARGE
+2 THRESHOLD
+3 CV
+---
+
+
+
+
+
+
+
+---
+4o RESET
+5 OUT
+6o TRIGGER
+***
+13 DISCHARGE
+12 THRESHOLD
+11 CV
+
+7 GND
+---
+
+
+
+
+
+
+
+---
+10o RESET
+9 OUT
+8o TRIGGER
+
+14 VCC
+#Complete High-Speed CMOS, 12-Bit ADC
+***** MAX162
+***** AD7572
+***** MX7572
+1 AIN
+
+17 CLKIN
+
+20o ~RD
+21o ~CE
+
+2 Vref
+
+23 VEE
+3 AGND
+
+12 GND
+24 VCC
+---
+
+
+
+
+---
+16 D0
+15 D1
+14 D2
+13 D3
+11 D4
+10 D5
+9 D6
+8 D7
+7 D8
+6 D9
+5 D10
+4 D11
+
+19 HBEN
+
+22o ~BUSY
+
+18 CLKOUT
+***** TL507
+***** TL507C
+8o ~RST
+1 EN
+5 AIN
+2 CLK
+---
+
+
+
+
+---
+4o ~OUT
+3 GND
+7 VDD
+6 VCC
+***** TLC548
+***** TLC549
+***** TLC1549
+1 REF+
+2 AIN
+3 REF-
+7 CLK
+5o ~CE
+---
+
+
+
+
+---
+6 DOUT
+
+
+4 GND
+8 VCC
+#ADC0808/ADC0809 8-Bit uP Compatible A/D Converters with 8-Channel Multiplexer
+***** ADC0808
+***** ADC0809
+26 IN0
+27 IN1
+28 IN2
+1 IN3
+2 IN4
+3 IN5
+4 IN6
+5 IN7
+
+25 A0
+24 A1
+23 A2
+
+12 Vref(+)
+16 Vref(-)
+
+6 START
+10 CLK
+---
+
+
+
+
+---
+17 D0
+14 D1
+15 D2
+8 D3
+18 D4
+19 D5
+20 D6
+21 D7
+
+7 EOC
+9o ~OE
+
+22 ALE
+
+13 GND
+11 VCC
+#Stereo Continuous Calibration DAC
+***** TDA1310
+***** TDA1545
+1 CLK
+2 WS
+3 DIN
+
+7 Iref
+---
+
+
+
+
+---
+6 LOUT
+8 ROUT
+
+4 GND
+5 VCC
+#8-Bit DAC with Output Amplifiers
+***** AD7224
+13 D0
+12 D1
+11 D2
+10 D3
+9 D4
+8 D5
+7 D6
+6 D7
+
+14o ~CE
+15o ~WR
+16o ~LD
+---
+
+
+
+
+---
+2 OUT
+
+17o ~RST
+
+
+3 Vref
+
+4 AGND
+
+5 GND
+18 VCC
+1 VEE
+#LC2 MOS Octal 8-Bit DAC
+***** AD7228A
+20 D0
+19 D1
+18 D2
+17 D3
+16 D4
+15 D5
+14 D6
+13 D7
+
+24 A0
+23 A1
+22 A2
+
+21o ~WR
+---
+
+
+
+
+---
+9 OUT0
+8 OUT1
+7 OUT2
+6 OUT3
+5 OUT4
+4 OUT5
+3 OUT6
+2 OUT7
+
+11 Vref
+
+12 GND
+1 VCC
+10 VEE
+#CMOS 12-Bit Buffered Multiplying DAC
+***** AD7545
+***** AD7645
+15 D0
+14 D1
+13 D2
+12 D3
+11 D4
+10 D5
+9 D6
+8 D7
+7 D8
+6 D9
+5 D10
+4 D11
+
+16o ~CS
+17o ~WR
+---
+
+
+
+
+---
+1 OUT
+
+
+
+
+
+
+
+
+19 Vref
+20 Rfb
+
+2 AGND
+3 GND
+18 VCC
