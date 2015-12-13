@@ -3,7 +3,7 @@
 
 result = File.new('parts.txt', 'w')
 
-for libName in ['Atmel', 'PIC', 'Other']
+for libName in ['Atmel', 'PIC', 'LPC', 'Memory', 'Other']
   result.puts "********** #{libName}"
   result.puts File.read("#{libName}.txt")
 end
